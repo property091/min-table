@@ -1,3 +1,31 @@
+groups = document.getElementById('groups');
+periods = document.getElementById('periods')
+
+
+for (var i = 0; i < 18; i++) {
+    groups.innerHTML += "<div class='block2' id='" + i + "group'>" + (i + 1) + "</div>"
+        
+}
+
+for (var i = 0; i < 9; i++) {
+    if (i == 7) {
+        periods.innerHTML += "<div class='block2' id='" + i + "period'>" + "L" + "</div>"
+      
+    }
+    else if (i == 8) {
+        periods.innerHTML += "<div class='block2' id='" + i + "period'>" + "D" + "</div>"
+        
+    }
+    else {
+        periods.innerHTML += "<div class='block2' id='" + i + "period'>" + (i + 1) + "</div>"
+      
+    }
+      
+}
+
+document.getElementById('7period').style.marginLeft = '170px'
+document.getElementById('8period').style.marginLeft = '170px'
+document.getElementById('7period').style.marginTop = '80px'
 
 for (var i = 58; i <= 71; i++) {
     document.getElementById(`${i}s`).style.backgroundColor = "orchid" 
