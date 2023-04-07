@@ -1,0 +1,168 @@
+html {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(42, 52, 75);
+}
+
+#dog {
+    z-index: 2;
+    position: absolute;
+
+    bottom: 70px;
+    left: 200px;
+
+    width: 52px;
+    height: 52px;
+    background-color: red;
+
+    background: url('dog.png');
+    object-fit: cover;
+}
+
+#groups {
+    height: 70px;
+    width: 1440px;
+
+    background-color: transparent;
+
+    position: absolute;
+    top: -70px;
+
+    font-size: 40px;
+}
+
+#periods {
+    height: 640px;
+    width: 80px;
+
+    background-color: transparent;
+
+    position: absolute;
+    left: -80px;
+
+    font-size: 40px;
+}
+
+
+
+
+
+.about {
+    text-align: center;
+    vertical-align: center;
+
+    font-size: 25px;
+    font-family: monospace;
+    color: aliceblue;
+
+    z-index: 1;
+    
+    width: 1440px;
+    height: 100px;
+    background-color: transparent;
+    
+    position: absolute;
+    top: 830px;
+    left: 240px;
+}
+
+.area {
+    position: fixed;
+
+    margin: 240px;
+    margin-top: 100px;
+
+    width: 1440px;
+    height: 720px;
+
+    background-color: transparent;
+
+}
+
+
+.area2,
+.area3 {
+    margin: 5px;
+    position: absolute;
+
+    height: 70px;
+    width: 1200px;
+
+    background-color: transparent;
+    margin-top: 730px;
+    margin-left: 400px;
+}
+
+.area2 {
+    margin-top: 660px;
+}
+
+
+
+
+.block {
+    margin: 5px;
+
+    width: 70px;
+    height: 60px;
+
+    background-color: rgb(196, 134, 134);
+
+    float: left;
+
+    text-align: center;
+    font-family: monospace;
+    color: rgb(29, 38, 56);
+}
+
+
+.block2 {
+    margin: 5px;
+
+    width: 70px;
+    height: 60px;
+
+    background-color: transparent;
+
+    float: left;
+
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(20, 33, 58);
+}
+
+.block:hover {
+    opacity: 70%;
+}
+
+
+.emptyOne {
+    margin: 5px;
+
+    width: 1270px;
+    height: 60px;
+
+    background-color: transparent;
+
+    float: left;
+}
+
+.emptyTwo {
+    margin: 5px;
+
+    width: 790px;
+    height: 60px;
+
+    background-color: transparent;
+
+    float: left;
+    
+}
