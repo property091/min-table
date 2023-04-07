@@ -27,25 +27,30 @@ body {
     object-fit: cover;
 }
 
-.groups {
-    height: 50px;
+#groups {
+    height: 70px;
     width: 1440px;
 
     background-color: transparent;
 
     position: absolute;
-    top: -50px;
+    top: -70px;
+
+    font-size: 40px;
 }
 
-.periods {
-    height: 720px;
-    width: 50px;
+#periods {
+    height: 640px;
+    width: 80px;
 
     background-color: transparent;
 
     position: absolute;
-    left: -50px;
+    left: -80px;
+
+    font-size: 40px;
 }
+
 
 
 
@@ -97,7 +102,7 @@ body {
 }
 
 .area2 {
-    margin-top: 650px;
+    margin-top: 660px;
 }
 
 
@@ -116,6 +121,22 @@ body {
     text-align: center;
     font-family: monospace;
     color: rgb(29, 38, 56);
+}
+
+
+.block2 {
+    margin: 5px;
+
+    width: 70px;
+    height: 60px;
+
+    background-color: transparent;
+
+    float: left;
+
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(20, 33, 58);
 }
 
 .block:hover {
